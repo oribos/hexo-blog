@@ -36,7 +36,7 @@ git 下载[coding仓库](https://frednab.coding.net/public/dev/hexo-blog/git/fil
 
 #### 第三步 更新文章
 
-通过hexo new page 文章.md新建文档
+通过`hexo new page 文章.md`新建文档
 
 或者在source/_posts目录下撰写自己的文章
 
@@ -57,12 +57,18 @@ git push -u origin master  //推送master分支到origin仓库
 
 提示操作成功后，代码将推送到github上的master分支，github自动部署将启动，将hexo文件自动部署到gh-pages分支
 
+**由于该仓库含有github自动构建文件，上传到github将触发自动部署**
+
+github自动构建文件为 `.github/workflows/hexodeploy.yml`文件
+
 #### 第五步 开启pages
 
 在github仓库 “Settings”选择“GitHub Pages” source项选择Branch:gh-pages
-如图：![github pages设置](https://s.ufs.pub/images/2020/10/20201022095332.png)
+如图：![github pages设置](https://base.oribos.city/images/2020/10/20201022095332.png)
 
 即可使用由github自动部署的 pages 服务。
+
+**请确保仓库里source/CNAME文件域名已经正确修改**
 
 
 ---
