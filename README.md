@@ -1,32 +1,18 @@
 # 适用于萌新的hexo自动部署
 
-此仓库内源码并没有安装主题，需要自行安装主题
 
 ### 使用步骤
 
 #### 第一步 使用代码 
 
-git 下载[coding仓库](https://frednab.coding.net/public/dev/hexo-blog/git/files)代码
+git 下载[coding仓库](https://frednab.coding.net/public/dev/hexo-pre-install/git/files)代码
 
-`git clone https://e.coding.net/frednab/dev/hexo-blog.git`
+`git clone https://e.coding.net/frednab/dev/hexo-pre-install.git`
 
 
 #### 第二步 修改配置
 
 修改 **项目目录**下的**CNAME**文件里的域名
-
-安装主题 
-
-方法一、下载主题目录，然后解压缩到themes目录下
-
-方法二、使用npm安装主题
-
-`npm i hexo-theme-butterfly`方式安装自己需要的主题（请参照自己需要主题的安装说明）
-
-
-方法三、通过git submodule安装主题
-
-`git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly`
 
 
 **其他文件不需要配置**
