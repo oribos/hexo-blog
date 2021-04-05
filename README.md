@@ -1,5 +1,7 @@
 # 适用于萌新的hexo自动部署
 
+### 简述
+下载本仓库代码，修改CNAME文件，添加自己的文章，将本仓库代码推送github
 
 ### 使用步骤
 
@@ -12,7 +14,7 @@ git 下载[coding仓库](https://frednab.coding.net/public/dev/hexo-pre-install/
 
 #### 第二步 修改配置
 
-修改 **项目目录**下的**CNAME**文件里的域名
+修改 **source/CNAME**文件里的域名
 
 
 **其他文件不需要配置**
