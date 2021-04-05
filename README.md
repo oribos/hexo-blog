@@ -1,32 +1,45 @@
 # 适用于萌新的hexo自动部署
 
+此仓库内源码并没有安装主题，需要自行安装主题
+
 ### 使用步骤
 
 #### 第一步 使用代码 
 
-git 下载[coding仓库](https://denalon.coding.net/public/code/product/git/files)代码
+git 下载[coding仓库](https://frednab.coding.net/public/dev/hexo-blog/git/files)代码
 
-`git clone https://e.coding.net/denalon/code/product.git`
+`git clone https://e.coding.net/frednab/dev/hexo-blog.git`
 
 
 #### 第二步 修改配置
 
-修改 项目目录下的CNAME文件里的域名
+修改 **项目目录**下的**CNAME**文件里的域名
 
+安装主题 
 
-原文使用[butterfly](https://github.com/jerryc127/hexo-theme-butterfly),你可以通过hexo 5.0之后的新的安装主题方式使用
+方法一、下载主题目录，然后解压缩到themes目录下
+
+方法二、使用npm安装主题
 
 `npm i hexo-theme-butterfly`方式安装自己需要的主题（请参照自己需要主题的安装说明）
+
+
+方法三、通过git submodule安装主题
+
+`git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly`
+
 
 **其他文件不需要配置**
 
 #### 第三步 更新文章
 
-撰写自己的文章
+通过hexo new page 文章.md新建文档
 
-#### 第四步 git推送到github
+或者在source/_posts目录下撰写自己的文章
 
-通过一下命令将代码推送到github仓库
+#### 第四步 将源码推送到github
+
+通过一下命令将该仓库里的源码推送到github仓库
 
 **如果你是使用git clone方式下载的代码，建议删掉目录下的.git目录再执行如下操作**
 
@@ -66,11 +79,12 @@ git push -u origin master  //推送master分支到origin仓库
 
 通过`npm i xxx主题 --save`安装其他主题，然后再执行如下操作：
 
+**使用npm uninstall 主题名将旧主题卸载**
 
-1 将新主题的配置文件_config.yml改名为_config.xxx主题.yml，复制到根目录下
+1 将新主题的配置文件`_config.yml`改名为`_config.xxx主题.yml`，复制到根目录下
 
-2 修改根目录下的_config.yml文件里的theme: butterfly 为theme: xxx主题
+2 修改根目录下的`_config.yml`文件里的`theme: butterfly` 为`theme: xxx`主题
 
-hexo会组合_config.yml和_config.xxx主题.yml里的内容实现相应的效果。
+hexo会组合`_config.yml`和`_config.xxx主题.yml`里的内容实现相应的效果。
 
 #### 其他操作请参照hexo教程
