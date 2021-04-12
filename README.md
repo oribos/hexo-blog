@@ -21,6 +21,8 @@ git 下载[coding仓库](https://frednab.coding.net/public/dev/hexo-blog/git/fil
 
 安装主题 
 
+**此仓库已经预置butterfly主题**
+
 方法一、下载主题目录，然后解压缩到themes目录下
 
 方法二、使用npm安装主题
