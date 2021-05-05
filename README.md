@@ -1,6 +1,6 @@
 # 适用于萌新的hexo自动部署
 
-> 该项目需要使用git对代码仓库进行管理，请参照[git教程](http://library.ufs.pub/web/course/git.html)和[git - 简明指南](https://www.runoob.com/manual/git-guide/)了解基本的git操作
+> 该项目需要使用git对代码仓库进行管理，请参照[git教程](http://blog.oribos.cn/web/course/git.html)和[git - 简明指南](https://www.runoob.com/manual/git-guide/)了解基本的git操作
 
 ### 简述
 下载本仓库代码，修改CNAME文件，添加自己的文章，将本仓库代码推送github
