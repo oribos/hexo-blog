@@ -86,3 +86,27 @@ github自动构建文件为 `.github/workflows/hexodeploy.yml`文件
 hexo会组合`_config.yml`和`_config.xxx主题.yml`里的内容实现相应的效果。
 
 #### 其他操作请参照hexo教程
+
+## 使用coding代码托管
+
+如果github访问异常，可以选择使用coding进行代码托管和自动构建
+在coding上的hexo有两种部署方式
+
+方式一: 使用coding的静态网站部署
+
+**由于使用的hexo和npm版本过高，coding的静态网站部署并无法正常使用该项目文件。**
+
+方式二：使用项目里的.coding/ci.yml自动构建文件,将自己的账户密码和仓库https地址对应以下变量
+
+https://${USER}:${TOKRN}@${HTTP_URL}
+
+![ssh方式](https://base.oribos.city/images/2021/04/202104140005.png)
+
+
+![ssh方式](https://base.oribos.city/images/2021/04/202104140006.png)
+
+
+![ssh方式](https://base.oribos.city/images/2021/04/202104140007.png)
+
+
+构建完成后，手动在静态网站部署选择该项目的pages分支
