@@ -54,7 +54,8 @@ github自动构建文件为 `.github/workflows/hexodeploy.yml`文件
 #### 第五步 开启pages
 
 在github仓库 “Settings”选择“GitHub Pages” source项选择Branch:gh-pages
-如图：![github pages设置](https://base.oribos.city/images/2020/10/20201022095332.png)
+如图：
+![github pages设置](https://base.oribos.city/images/2020/10/20201022095332.png)
 
 即可使用由github自动部署的 pages 服务。
 
