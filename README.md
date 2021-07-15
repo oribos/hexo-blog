@@ -1,5 +1,3 @@
-**该项目同[hexo-blog](https://frednab.coding.net/public/dev/hexo-blog/git/files)合并，本仓库将不再进行更新**
-
 # 适用于萌新的hexo自动部署
 
 > 该项目需要使用git对代码仓库进行管理，请参照[git教程](http://blog.oribos.cn/web/course/git.html)和[git - 简明指南](https://www.runoob.com/manual/git-guide/)了解基本的git操作
@@ -11,9 +9,9 @@
 
 #### 第一步 使用代码 
 
-git 下载[coding仓库](https://frednab.coding.net/public/dev/hexo-pre-install/git/files)代码
+git 下载[coding仓库](https://frednab.coding.net/public/dev/hexo-blog/git/files)代码
 
-`git clone https://e.coding.net/frednab/dev/hexo-pre-install.git`
+`git clone https://e.coding.net/frednab/dev/hexo-blog.git`
 
 
 #### 第二步 修改配置
