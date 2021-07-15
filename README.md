@@ -1,20 +1,24 @@
+> 分支说明：不同分支为不同的主题模板，npm分支为npm包管理器管理主题的模板
+> 发布自己的博客是请修改source/CNAME文件里的域名
+
+
 # 适用于萌新的hexo自动部署
 
 > 该项目需要使用git对代码仓库进行管理，请参照[git教程](http://blog.oribos.cn/web/course/git.html)和[git - 简明指南](https://www.runoob.com/manual/git-guide/)了解基本的git操作
 
 ### 简述
-下载本仓库代码，修改CNAME文件，添加自己的文章，将本仓库代码推送github
+下载本仓库代码，修改CNAME文件，添加自己的文章，将本仓库代码推送github，即可访问自己的博客。
 
 ### 使用步骤
 
-#### 第一步 使用代码 
+#### 第一步 *获取源码* 使用代码 
 
 git 下载[coding仓库](https://frednab.coding.net/public/dev/hexo-blog/git/files)代码
 
 `git clone https://e.coding.net/frednab/dev/hexo-blog.git`
 
 
-#### 第二步 修改配置
+#### 第二步 *修改配置*
 
 修改 **source/CNAME**文件里的域名
 
@@ -37,13 +41,13 @@ git 下载[coding仓库](https://frednab.coding.net/public/dev/hexo-blog/git/fil
 
 **其他文件不需要配置**
 
-#### 第三步 更新文章
+#### 第三步 *更新文章*
 
 通过`hexo new page 文章.md`新建文档
 
 或者在source/_posts目录下撰写自己的文章
 
-#### 第四步 将源码推送到github
+#### 第四步 *推送源码* 将源码推送到github
 
 通过一下命令将该仓库里的源码推送到github仓库
 
@@ -124,3 +128,4 @@ https://${USER}:${TOKRN}@${HTTP_URL}
 
 
 构建完成后，手动在静态网站部署选择该项目的pages分支
+
