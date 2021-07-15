@@ -1,4 +1,5 @@
 > 分支说明：不同分支为不同的主题模板，npm分支为npm包管理器管理主题的模板
+
 > 发布自己的博客是请修改source/CNAME文件里的域名
 
 
@@ -6,10 +7,10 @@
 
 > 该项目需要使用git对代码仓库进行管理，请参照[git教程](http://blog.oribos.cn/web/course/git.html)和[git - 简明指南](https://www.runoob.com/manual/git-guide/)了解基本的git操作
 
-### 简述
+## 简述
 下载本仓库代码，修改CNAME文件，添加自己的文章，将本仓库代码推送github，即可访问自己的博客。
 
-### 使用步骤
+## 使用步骤
 
 #### 第一步 *获取源码* 使用代码 
 
@@ -68,7 +69,7 @@ git push -u origin master  //推送master分支到origin仓库
 
 github自动构建文件为 `.github/workflows/hexodeploy.yml`文件
 
-#### 第五步 开启pages
+#### 第五步 *开启pages*
 
 在github仓库 “Settings”选择“GitHub Pages” source项选择Branch:gh-pages
 如图：![github pages设置](https://base.oribos.city/images/2020/10/20201022095332.png)
@@ -79,7 +80,9 @@ github自动构建文件为 `.github/workflows/hexodeploy.yml`文件
 
 
 ---
-### 进阶操作
+
+
+## 进阶操作
 
 完成以上部署就可以正常使用由hexo生成，github自动部署的pages。你也可以通过以下操作扩展hexo进阶操作
 
@@ -104,6 +107,8 @@ github自动构建文件为 `.github/workflows/hexodeploy.yml`文件
 hexo会组合`_config.yml`和`_config.xxx主题.yml`里的内容实现相应的效果。
 
 #### 其他操作请参照hexo教程
+
+---
 
 ## 使用coding代码托管
 
