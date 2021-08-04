@@ -4,7 +4,7 @@
 
 > 分支说明: 不同分支对应不同的主题模板，npm分支为npm包管理器管理主题的模板
 
-> 部署说明: 发布自己的博客是请修改source/CNAME文件里的域名
+> 部署说明: 发布自己的博客时请修改source/CNAME文件里的域名
 
 ## 简述
 下载本仓库代码，修改CNAME文件，添加自己的文章，将本仓库代码推送github，即可访问自己的博客。
@@ -133,3 +133,30 @@ https://${USER}:${TOKRN}@${HTTP_URL}
 
 构建完成后，手动在静态网站部署选择该项目的pages分支
 
+## 在服务器上部署hexo
+
+#### 安装基础工具
+
+安装[npm](https://nodejs.org/en/)和[git](https://git-scm.com/)
+
+#### *获取源码* 使用代码 
+
+git 下载[coding仓库](https://frednab.coding.net/public/dev/hexo-blog/git/files)代码
+
+`git clone https://e.coding.net/frednab/dev/hexo-blog.git`
+
+#### 执行构建
+
+进入项目目录下，执行`npm ci`安装博客项目所需要的依赖
+
+根据需要安装主题 (可选)
+
+添加自己的文章
+
+执行`hexo g`构建页面
+
+#### 本地服务器安装nginx
+
+新建一个nginx网站，站点地址为博客项目下的public目录
+
+#### 访问页面
