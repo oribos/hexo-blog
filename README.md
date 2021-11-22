@@ -1,3 +1,5 @@
+> volantis采用官方5.0 alpha版本仅供参看[Volantis5](https://volantis.js.org/v5/getting-started/)
+
 # 适用于萌新的hexo自动部署
 
 > 基础要求: 该项目需要使用git对代码仓库进行管理，请参照[git教程](http://blog.oribos.cn/web/course/git.html)和[git - 简明指南](https://www.runoob.com/manual/git-guide/)了解基本的git操作
